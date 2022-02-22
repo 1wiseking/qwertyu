@@ -1,0 +1,36 @@
+.hideBlock{
+    display: none;
+}
+button{
+   position: absolute;
+   left: 700px;
+   background-color: rgb(25, 123, 209);
+   color: white;
+   font-size: 60px;
+   top: 400px;
+
+}
+#small{
+    
+left: 300px;
+}
+#bingo{
+    left: 700px;
+}
+#big{
+    left: 1000px;
+}
+#starttext{
+    padding-top: 150px;
+    padding-left: 250px;
+    font-size: 40px;
+}
+#question{
+   padding-top: 200px;
+    padding-left: 700px;
+    font-size: 40px;
+}
+body{
+ 
+   
+}

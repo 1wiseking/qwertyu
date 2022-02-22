@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+
+<p id="starttext"> загадайте число от 0 да 100, и я угадаю его за 7 попыток или меньше! </p>
+<button onclick="start()" id="startbutton" >начинаем</button>
+ 
+<p id="question"></p>
+<button id="small" onclick="smallClick()" class="hideBlock">меньше</button>
+<button id="bingo" onclick="bingoClick()" class="hideBlock">Угадал</button>
+<button id="big" onclick="bigClick()" class="hideBlock">больше</button>
+
+    <script src="./js.js"></script>
+</body>
+</html>
